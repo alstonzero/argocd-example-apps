@@ -9,7 +9,7 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    path: app
+    path: apps
     repoURL: https://github.com/alstonzero/argocd-example-apps.git
     targetRevision: automated-sync
   syncPolicy:
